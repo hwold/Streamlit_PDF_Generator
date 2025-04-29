@@ -1,6 +1,6 @@
 
 import streamlit as st
-import fitz
+from pymupdf import *
 import re
 import tempfile
 import os
@@ -10,6 +10,7 @@ from reportlab.lib.units import cm
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4, A5, LETTER, LEGAL, landscape
 from PIL import Image
+import fitz
 
 def extrair_informacoes(caminho_pdf):
     doc = fitz.open(caminho_pdf)
