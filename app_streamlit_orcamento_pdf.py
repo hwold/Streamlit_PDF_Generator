@@ -1,4 +1,4 @@
-!pip install -r requeriments.txt
+pip install -r requeriments.txt
 import streamlit as st
 import re
 import tempfile
