@@ -1,6 +1,6 @@
 
 import streamlit as st
-from pymupdf import *
+import pymupdf
 import re
 import tempfile
 import os
