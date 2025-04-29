@@ -1,9 +1,9 @@
-pip install -r requeriments.txt
 import streamlit as st
 import re
 import tempfile
 import os
 import base64
+import reportlab
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import cm
 from reportlab.lib import colors
